@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-pail",
+    "description": "Tyhp type definitions for laravel/pail 1.2.7.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.2.7",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-pail-impl": "~1.2.7.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-pail-impl"
+        }
+    }
+}
